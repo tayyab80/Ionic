@@ -1,0 +1,7 @@
+{
+  "name": "confusion",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
