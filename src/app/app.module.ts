@@ -16,6 +16,7 @@ import { DishProvider } from '../providers/dish/dish';
 import { LeaderProvider } from '../providers/leader/leader';
 import { PromotionProvider } from '../providers/promotion/promotion';
 import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-httpmsg';
+import { ReservationPage } from '../pages/reservation/reservation';
 
 import { baseURL } from '../shared/baseurl';
 import { FavoriteProvider } from '../providers/favorite/favorite';
@@ -29,7 +30,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     MenuPage,
     ContactPage,
     DishdetailPage,
-    FavoritesPage
+    FavoritesPage,
+    ReservationPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     MenuPage,
     ContactPage,
     DishdetailPage,
-    FavoritesPage
+    FavoritesPage,
+    ReservationPage
   ],
   providers: [
     StatusBar,
